@@ -1,0 +1,116 @@
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="accueil.css" />
+        <script src="salut.js"></script>
+		<title>
+			Portfolio de Benjamin Perez
+		</title>
+	</head>
+    <nav>
+        <div class="profile">
+            <h6>Benjamin Perez</h6>
+        </div>
+        <ul>
+            <a id="CV" href="https://postimg.cc/xc0PNhkm" target="_blank">Curriculum Vitae</a>
+            <a id="dark" onclick="dark_mode()">Dark</a>
+        </ul>
+    </nav>
+	<body >
+        <div id="corp">
+            <section class="page-content">
+                <header>
+                    <div class="presentation">
+                        <section>
+                            <h1 id="txt1">Bonjour à toi , Je suis  étudiant en BTS SIO  SLAM.</h1>
+                        </section>
+                        <section id="photo_txt" onmouseover="txt()" onmouseout="txt_fin()">
+                            <img id="photo" src="./benji.jpg" alt="profile photo" />
+                            <p id="img_hover">Tu pourras retrouver sur mon portfolio les différentes expériences et les projets que j'ai pu réaliser durant les dernières années. </p>
+                        </section>
+                    </div>
+                    <p id="txt2">
+                        Je m'appel Benjamin Perez . Je suis actuellement en première année de BTS SIO option SLAM. Passionné par l'informatique j'ai choisis d'en faire mon métier , plus précisement dans le développement web.
+                    </p>
+                    <button id="txt3" onclick="salut()">Dites moi Bonjour !</button>
+                </header>
+    
+                <section class="presentation-image">
+                    <img src="https://i.ibb.co/RbGysWw/main-image.jpg" alt="AI image" />
+                </section>
+                <div class="colonnes">
+                    <section class="projects-section">
+                        <h1 id="txt4">mes expériences</h1>
+                        <div class="projects">
+                            <div class="project">
+                                <h4>stage de découverte de gestion d'un magasin</h4>
+                                <p class="description">
+                                    découverte de la gestion d'un magasin. Préparation du magasin le matin avec réception des colis , contact avec les clients , montage de meubles mis en vente .
+                                </p>
+                                <p class="dates">Date 2019</p>
+                            </div>
+                            <div class="project">
+                                <h4>Stage 1 ère année de BTS SIO </h4>
+                                <p class="description">
+                                    Je vais réaliser un stage dans le cadre du développement informatique du 30 mai au 23 juin
+                                </p>
+                                <p class="dates">Date 2023</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="projects-section">
+                        <h1 id="activite">Mes projets Personnels</h1>
+                        <div class="projects">
+                            <div class="project">
+                                <h4>Création d'un site vitrine </h4>
+                                <p class="description">
+                                    Création d'un site vitrine de l'entreprise Sitrans dans le cadre d'un travail de classe. 4 pages dont la présentation de l'entreprise , l'histoire , les services proposés ainsi qu'une page pour contacter l'entreprise.
+                                </p>
+                                <p class="dates">Date 2022</p>
+                            </div>
+                            <div class="project">
+                                <h4>Création d'un site d'animés (en cours) </h4>
+                                <p class="description">
+                                    Je suis entrain de créer un site web répertoriant tous les animés qui j'ai aimé . Je propose une description de l'animé puis j'envoie l'utilisateur vers un site(netflix , crunchyroll etc...) pour regarder chacun des animés.
+                                </p>
+                                <p class="dates">Date 2023</p>
+                            </div>
+                            <div class="project">
+                                <h4>Entrainement de création de logiciels </h4>
+                                <p class="description">
+                                    J'ai programmé en C# et en Python quelques logiciels tel qu'une calculatrice , un interface pour jouer à plusieurs jeux tel que morpion , pendu , Motus et un logiciel de création de fichier(extention au choix).
+                                </p>
+                                <p class="dates">Date 2023</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="projects-section">
+                        <h1 id="txt5">
+                            Mon GitHub
+                        </h1>
+                        <div class="project" >
+                            <a href="https://github.com/benji28000" target="_blank"><img src="./pngegg (1).png" alt="Font-Awesome-5-brands-github-svg"  width="100px"></a>
+                            <p class="description"> Clique sur le logo pour accèder à mon GitHub !  je vais y déposer tous mes futurs projets </p>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+
+	</body>
+    <footer id="footer">
+        <div class="colonne">
+            <h3>Mes activités</h3>
+            <p class="txt_footer">Développement Web</p>
+            <p class="txt_footer">Développement de logiciel</p>
+            <p class="txt_footer">Etudiant</p>
+        </div>
+        <div class="colonne">
+            <h3>Où me contacter</h3>
+            <a id="linkedin" href="https://www.linkedin.com/in/benjamin-perez-b8044424b/" target="_blank">linkedln</a>
+            <p class="txt_footer">benjaminperez1@outlook.fr</p>
+            <p class="txt_footer" >benjaminperez1@orange.fr</p>
+        </div>
+    </footer>
